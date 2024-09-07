@@ -1,0 +1,25 @@
+{
+  "name": "supertestapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "test:prompt": "mocha --file"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.17",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^22.2.0",
+    "@types/supertest": "^6.0.2",
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
